@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="snake-icon.png">
+    <title>Team Basilisk</title>
+  </head>
+  <body>
+      <div id="header">
+        <div class="nav-tab">
+            <img id="icon" src="snake-light.png"></img>
+            <h1 id="team-name" class="center center-text">Team Basilisk</h1>
+            <div id="nav-tab-text">
+                <a href="index.html"><button class="tablinks">Home</button></a>
+                <a href="#our-work"><button class="tablinks">Our Project</button></a>
+                <a href="#about"><button class="tablinks">Meet the Team</button></a>
+                <a href="#contact"><button class="tablinks">Contact Us</button></a>
+            <a href="https://github.com/MKM-RMIT/IIT-A3"><img src="GitHub-Mark-Light-32px.png" id="github-link"></img></a>
+            </div>
+        </div>    
+    </div>
+    <div id="main" class="center">
+           <div class="section center" id="our-project">
+           <h2>Plans and Progress</h2>
+           <h3>What our project will do?</h3>
+           <p>
+
+It is natural that anything that is branded and has a large following will be abused for profit. Malicious third parties can create a fake product that is the same as the original product and sell it to people and deceive them and like this they make money for them which causes harm to those people who use their fake product and harm to the company those who are responsible. <br>
+
+For example, if we consider a Pokémon card, someone can sell a fake card at a high price. This is harmful to the buyer as the card is useless and cannot be legitimately sold. If the buyer then unwittingly sells the fake card and is caught, their reputation as a trustworthy seller on sites such as eBay is negatively affected and their store could be shut down. As a result, this makes people formerly interested in trading cards stop buying and selling them, and when the userbase of a brand or a company shrinks, it causes the value and the credibility of that company to also go down.  <br>
+
+For this reason, we wanted to create a solution to this problem, and we concluded that the best and most accessible way to solve it would be to create a mobile app through which the user can check the validity of their card. Inspired by the market and made for the consumer is how we would like to describe our product. Not only are we able to take advantage of a huge market space but the scope of our project could constantly expand to include any other product on the marked. With so many different companies that create trading cards, the sky's the limit for this app. The application that we will build will have six steps for card recognition, which are described below: <br>
+
+When the user opens the app and before the user’s card is checked by the app, a guide is displayed for the user to check their own card so that the user can be sure of the validity of their physical card, because there are some signs that only if the card is physically available, it can be recognized. The guide text contains the following: <br>
+
+“First, you should check if your card is thinner or thicker than a real card. If so, your card is fake.” <br>
+
+“Second, you should compare your card’s weight to a real card and if you notice that your card is heavier or lights weight, you should know that your card is fake.”  <br>
+
+“Third, if you are very suspicious about your card, then you should take an original card that is no longer valuable, then tear a little of your card and a little of the other card, then compare damage to both cards. If the suspicious card is torn faster and more easily, then it is fake.” <br> 
+
+“If you're sure that your card is physically real then enter the next step.” <br>
+
+Application asks the user to allow the application to access the device’s gallery and camera. <br>
+
+If the user has a photo of the card, application will suggest the user to upload the photo. <br>
+
+If there is no photo of the card in user’s device, application asks the user to Fill out a form with the name of the card and the game it's from, which adds it to the user's database but does not mark it as verified. If the app doesn't recognize the card from name and origin, the user can submit a request for the developers to add to the app's database of known cards.<br> 
+
+The program gives the user the option of scanning their card with their device camera, so that if the app could not recognize the user’s card state through the form, it could recognize it from the scan of user’s card by it self’s scanner. <br>
+
+After receiving the user’s card scan, application checks the specifications of the user’s card against the specifications of real cards, which are described below: <br>
+
+Images: First of all, the app sees the image of the card and matches it with the original image, if there is something that looks suspicious or if it looks like it has been affixed, application gives the user result that their card is fake. <br>
+
+Pokémon stat ranges: If the user’s card is a Pokémon card, the app will check the card’s attack and HP. If the HP of user’s card is close to 300 or 300 and there is no attach, the app will give the user the result that their card is fake. <br>
+
+Spelling mistakes: If the application notices any spelling mistakes in text of the user’s card, it will give the user the result that their card is fake. If the user’s card would be a Pokémon card, the app checks the user’s energy symbol and compare it with real one if the user’s card is fake, it’s energy symbol is larger. <br>
+
+Font: If user’s card’s font has any difference with real card’s font, the app will give the user the result that their card is fake. <br>
+
+Card box: fake card boxes do not have trademark. For example, if the app notice that user’s Pokémon card box does not have trademark, it will give the user the result that their card is fake. <br>
+
+Card colour: The app will check user’s card’s colour carefully and even if the app notices the slightest darkness or lightness difference from a real one, it will give the user the result that their card is fake. <br>
+
+These are the specifications that matches most of the real trading cards specifications such as Yu-Gi-OH, Pokémon, Baseball or all sport trading cards and more to ensure that they are real. <br>
+
+The app in its final version would have different options for the type of company that it’s for, e.g. Pokémon, Magic the Gathering etc. We would implement an ever-growing database of images that can sort for discrepancies between certain cards and have the app able to give a stamp/verification seal which would make reselling easier. Imagine StockX with shoes but for cards- The app would simplify the process to promote growth in the trading card community. <br> </p>
+
+<h3>Our project’s story</h3>
+<p>
+As all of us had a project idea from A1, we first had to review each other’s project idea. All the ideas were great and everyone had great creativity in this part, but as we had to attempt our project idea in A3, we had to choose an idea that was at our skill level and could implement it. So, we decided to create an application that can determine whether a trading card is fake or real. After choosing this idea, we started planning it on A2 and fortunately we could improve a little in our project by collecting data from different sources about creating the application that we wanted to create. Now we are in A3 and we have task to develop a plan for our project, and as much of a prototype or other artefacts that we can produce in the time available to you. <br>
+
+Currently we have a prototype of the layout of the app and the ability to take yes/no answers from the user for questions such as "Does the card weigh between X grams and Y grams?" As the core feature of the app, image-based verification of cards relies on machine learning and database collection skills that we do not have yet, our efforts have been focused on creating the frontend user interface for the app, using Android Studio. Our work on the backend consists mainly of research so far to find the best way of developing a machine learning model, however it is likely that we will use TensorFlow as it is well documented and seems reasonably easy to pair with android apps. </p>
+           </div>
+       </div>
+    <div id="footer" class="center center-text">
+    <a href="https://www.flaticon.com/free-icons/snake" title="snake icons">Snake icons created by Freepik - Flaticon <br></a>
+    <a href="https://github.com/MKM-RMIT/IIT-A2" title="GitHub Repo">Site formatting created by Team Basilisk, re-used from assignment 2</a>
+    </div>
+  </body>
+</html>
