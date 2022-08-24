@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+}
+
+#icon {
+    float: left;
+	padding: 1%;
+	margin-top: 1%;
+	width: 5%;
+	max-width: 5%;
+}
+
+#team-name {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 1%;
+	margin-top: 10px;
+}
+
+.icon {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.icon-left {
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 5%;
+}
+
+.profile {
+    float: top;
+} 
+
+.center {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 1%;
+}
+.center-text {
+    text-align: center;
+}
+
+.nav-tab {
+    overflow: hidden;
+    /* #6293a3 */
+    background-color: #121212;
+    height: 5%;
+    max-height: 200px;
+    color: white;
+}
+
+.nav-tab button {
+    background-color: #121212;
+    margin: auto;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 30px;
+    transition: 0.3s;
+    color: white;
+}
+
+.nav-tab button:hover {
+    background-color: #212121;
+}
+
+.project-nav {
+    float: center;
+}
+
+.project-nav button {
+    background-color: #cfd6e3;
+    margin: auto;
+    margin-top: 5px;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 50px 10px;
+    width: 200px;
+    transition: 0.3s;
+    color: black;
+}
+
+.project-nav button:hover {
+    background-color: #ddd;
+}
+
+.member {
+    width: 90%;
+    max-width: 200px;
+    background-color: white;
+    transition: 0.3s;
+    float: left;
+    color: black;
+    padding: 5px;
+}
+
+.member:hover {
+    background-color: #ddd;
+}
+
+#nav-tab-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#about {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    overflow: hidden;
+}
+
+table tr td {
+  border: 1px solid black;
+}
